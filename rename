@@ -1,0 +1,14 @@
+import os
+
+color_path='/home/flychen59/SPADE/datasets/iVH/Color_image'
+standard_path='/home/flychen59/SPADE/datasets/iVH/Standard_image'
+num=len(os.listdir(standard_path))
+print(len(os.listdir(color_path)))
+# seq=0
+# for filename in os.listdir(standard_path):
+#     oldfilename=standard_path+'/'+filename
+#     os.rename(oldfilename,standard_path+'/'+'{:06d}'.format(seq)+'.png')
+#     print(filename)
+#     seq+=1
+print(len(os.listdir(standard_path)))
+
